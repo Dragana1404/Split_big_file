@@ -25,6 +25,7 @@ cs.execute(sql) #Execute sql query
 
 def split(filehandler, keep_headers=True): #Defines a function that will split a large file into smaller files
     reader = csv.reader(filehandler, delimiter=',') #Reading csv file
+
     #Function split the file on row # basics
 
     # Variable declartion:
